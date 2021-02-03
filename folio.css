@@ -1,0 +1,120 @@
+html, body
+{
+	width: 100%;
+	margin: 0px;
+}
+
+#titre
+{
+	font-size: 5em;
+	font-family: Agency FB;
+	text-align: center;
+	margin: 0px;
+}
+
+#titre-n
+{
+	font-size: 3em;
+	font-family: Agency FB;
+	text-align: center;
+}
+
+.column
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.columnp
+{
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+}
+
+.blue
+{
+	color: rgb(0,240,240);
+}
+
+nav
+{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.contact
+{
+	font-family: arial;
+	font-size: 1.5em;
+	color: rgba(150,150,150,0.7);
+}
+
+.contact:hover
+{
+	color: rgba(50,50,50,1);
+}
+
+.row
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.rowp
+{
+	display: flex;
+	flex-direction: row;
+	margin: 0px;
+}
+
+.columnp2
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+section
+{
+	border: black double 3px;
+	height: 500px;
+	width: 1200px;
+	margin-left: 100px;
+	padding: 1px;
+	background-color: rgb(100,100,100);
+}
+
+.ffvii
+{
+	width: 400px;
+	height: 200px;
+}
+
+.ffviii
+{
+	width: 400px;
+	height: 200px;
+}
+
+.ffx
+{
+	width: 400px;
+	height: 200px;
+}
+
+.dissidia
+{
+	width: 400px;
+	height: 200px;
+}
+
+.jeux
+{
+	width: 400px;
+	height: 200px;
+}
