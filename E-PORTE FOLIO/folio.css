@@ -155,3 +155,9 @@ a:visited
 	color: rgba(50,50,50,1);
 	text-decoration: none;
 }
+
+p
+{
+	font-family: Agency FB;
+	font-size: 1.1em;
+}
