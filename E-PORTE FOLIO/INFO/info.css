@@ -1,0 +1,75 @@
+html, body
+{
+	width: 100%;
+	margin: 0px;
+}
+
+body
+{
+	background-color: rgb(230,230,230);
+}
+
+.blue
+{
+	color: rgb(0,10,250);
+}
+
+#titre
+{
+	font-size: 3em;
+	font-family: Agency FB;
+	text-align: center;
+	margin: 0px;
+}
+
+#titre-n
+{
+	font-size: 3em;
+	font-family: Agency FB;
+}
+
+.padding
+{
+	padding: 5px;
+}
+
+.lien
+{
+	color: black;
+}
+
+.rowp
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#profil
+{
+	width: 250px;
+	height: 65px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+h2
+{
+	font-family: Agency FB;
+	font-size: 3em;
+	position: relative;
+	bottom: 105px;
+	left: 50px;
+	color: rgb(250,250,250);
+	width: 200px;
+}
+
+.profilText
+{
+	font-size: 2em;
+	font-family: Agency FB;
+	position: relative;
+	left: 10px;
+	bottom: 130px;	
+	width: 900px;
+}

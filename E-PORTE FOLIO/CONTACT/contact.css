@@ -1,0 +1,39 @@
+html, body
+{
+	width: 100%;
+	margin: 0px;
+}
+
+body
+{
+	background-color: rgb(230,230,230);
+}
+
+.blue
+{
+	color: rgb(0,10,250);
+}
+
+#titre
+{
+	font-size: 5em;
+	font-family: Agency FB;
+	text-align: center;
+	margin: 0px;
+}
+
+#titre-n
+{
+	font-size: 3em;
+	font-family: Agency FB;
+}
+
+.padding
+{
+	padding: 5px;
+}
+
+.lien
+{
+	color: black;
+}
