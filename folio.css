@@ -4,6 +4,11 @@ html, body
 	margin: 0px;
 }
 
+body
+{
+	background-color: rgb(230,230,230);
+}
+
 #titre
 {
 	font-size: 5em;
@@ -35,7 +40,7 @@ html, body
 
 .blue
 {
-	color: rgb(0,240,240);
+	color: rgb(0,10,250);
 }
 
 nav
@@ -48,12 +53,12 @@ nav
 
 .contact
 {
-	font-family: arial;
-	font-size: 1.5em;
+	font-family: Agency FB;
+	font-size: 2.5em;
 	color: rgba(150,150,150,0.7);
 }
 
-.contact:hover
+a:hover
 {
 	color: rgba(50,50,50,1);
 }
@@ -69,7 +74,9 @@ nav
 {
 	display: flex;
 	flex-direction: row;
-	margin: 0px;
+	margin: 10px;
+	margin-left: 20px;
+	justify-content: space-around;
 }
 
 .columnp2
@@ -79,42 +86,78 @@ nav
 	justify-content: space-around;
 }
 
-section
-{
-	border: black double 3px;
-	height: 500px;
-	width: 1200px;
-	margin-left: 100px;
-	padding: 1px;
-	background-color: rgb(100,100,100);
-}
-
 .ffvii
 {
-	width: 400px;
-	height: 200px;
+	width: 350px;
+	height: 350px;
 }
 
 .ffviii
 {
-	width: 400px;
-	height: 200px;
+	width: 350px;
+	height: 350px;
 }
+
 
 .ffx
 {
-	width: 400px;
-	height: 200px;
+	width: 350px;
+	height: 350px;
 }
 
 .dissidia
 {
-	width: 400px;
-	height: 200px;
+	width: 350px;
+	height: 350px;
 }
 
 .jeux
 {
-	width: 400px;
-	height: 200px;
+	width: 350px;
+	height: 350px;
+}
+
+img
+{
+	border: black double 3px;
+	padding: 0px;
+}
+
+img:hover
+{
+	border: rgb(0,10,250) double 3px;
+	padding: 4px;
+}
+
+h3
+{
+	margin: 5px;
+	font-family: Agency FB;
+	font-size: 2em;
+	border-bottom: rgb(0,10,250) double 5px;
+	width: 250px;
+}
+
+footer
+{
+	margin: 0px;
+	background-color: rgb(200,200,200);
+}
+
+a
+{
+	color: rgba(150,150,150,0.7);
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: rgba(50,50,50,1);
+	text-decoration: none;
+}
+
+p
+{
+	font-family: Agency FB;
+	font-size: 1.1em;
 }
